@@ -20,7 +20,7 @@ export const Header = () => {
     <header className="py-4 fixed bg-white w-full">
       <div className="w-[95%] m-auto">
         <ul className="flex justify-between items-center">
-          <div className="flex justify-center items-center gap-4 font-bold text-gray-700">
+          <div className="flex justify-center items-center gap-1 md:gap-4 font-bold text-gray-700">
             <li>
               <a href=""><Logo/></a>
             </li>
@@ -35,7 +35,7 @@ export const Header = () => {
             </li>
           </div>
           <div className="w-full  ">
-            <img className='search' src={imageSearch} alt="" />
+            {/* <img className='search' src={imageSearch} alt="" /> */}
             <li className=" flex justify-center ">
         
               <input
