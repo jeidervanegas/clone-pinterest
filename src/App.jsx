@@ -7,7 +7,7 @@ import InfiniteScroll from 'react-infinite-scroll-component'
 import imgageUser from './components/img/user.png'
 // import { Card } from "@mui/material";
 import { Card } from './components/Card'
-import { useBookStore } from './store/bookStore'
+import { useBookStore } from './store/bookStore';
 
 const api = createApi({
   // Don't forget to set your access token here!
