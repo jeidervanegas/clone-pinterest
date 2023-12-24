@@ -1,0 +1,27 @@
+.select {
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    padding: 12px 25px 12px 25px ;
+}
+.search {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 270px;
+    top: 32px;
+}
+@media (min-width: 768px) {
+    .search {
+        left: 290px;
+        top: 32px;
+    
+    }
+}
+@media (min-width: 992px) {
+    .search {
+        left: 344px;
+        top: 32px;
+    }
+}
