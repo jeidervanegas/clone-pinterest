@@ -19,7 +19,7 @@ export const Header = () => {
     <header className="py-4 fixed bg-white w-full">
       <div className="w-[95%] m-auto">
         <ul className="flex justify-between items-center">
-          <div className="flex justify-center items-center gap-1 md:gap-4 font-bold text-gray-700">
+          <div className="flex justify-center items-center gap-1 md:gap-4 font-bold text-gray-700 text-xs md:text-sm">
             <li>
               <a href="">
                 <Logo />
